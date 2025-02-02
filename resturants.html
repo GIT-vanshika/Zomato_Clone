@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Restaurants Near You!</title>
+  <link rel="stylesheet" href="css/resturants.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Find Restaurants Near You!</h1>
+      <p>Discover the best dining experiences in your area.</p>
+    </header>
+
+    <div class="search-box">
+      <input type="text" id="locationInput" placeholder="Enter your location (e.g., New York)">
+      <button id="searchBtn"><i class="fas fa-search"></i> Search</button>
+    </div>
+
+    <div class="results">
+      <h2>Search Results</h2>
+      <div id="restaurantList" class="restaurant-list">
+        <!-- Restaurant cards will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/resturants.js"></script>
+</body>
+</html>
